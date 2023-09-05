@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "FanSaleManagement": "Server=DESKTOP-CO\\SQLEXPRESS;Database=FanSaleManagement;Trusted_Connection=True;"
+  }
+}
