@@ -1,6 +1,7 @@
 ﻿using FSM_Application.Catalog.CategoryCatalog;
 using FSM_ViewModel.CategoryViewModel;
 using FSM_ViewModel.ProductViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,7 @@ namespace FSM_BackendAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = "Administrator")]
     public class CategoryController : ControllerBase
     {
         private readonly ICategoryServices _categoryServices;

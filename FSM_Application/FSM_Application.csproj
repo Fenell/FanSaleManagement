@@ -16,4 +16,9 @@
     <ProjectReference Include="..\FSM_VieModel\FSM_ViewModel.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Identity\Interface\" />
+    <Folder Include="Identity\Implement\" />
+  </ItemGroup>
+
 </Project>
